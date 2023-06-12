@@ -6,3 +6,28 @@
 .category{
 	width:100%
 }
+
+.productImg {
+	border-radius: 20%;
+	border: 7px solid white;
+	width :300px;
+	height :300px;
+	margin-bottom:40px;
+	margin-top:20px;
+}
+
+.myForm {
+	background: white;
+	padding: 30px;
+	box-shadow: 0 0 3px rgb(214 2015 216 / 60%);
+}
+
+
+.myButton {
+	background: #5846f9;
+	border: 0;
+	padding: 10px 24px;
+	color: #fff;
+	transition: 0.4s;
+	border-radius: 5px;
+}

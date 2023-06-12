@@ -1,0 +1,42 @@
+﻿@model List<Product>
+
+
+<div class="container mt-5 mb-5">
+    <form asp-action="ProductSearch" asp-controller="Home" method="get">
+        <div class="row">
+        
+            <div class="col-sm-10">
+                <input type="text" name="xname" class="form-control" placeholder="Search" />
+            </div>
+            <input type="submit" class="col-sm-2 btn btn-primary" value="Search" />
+        </div>
+
+    </form>
+</div>
+
+
+
+<section id="portfolio" class="portfolio">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="row portfolio-container" style="position: relative; height: 1267.08px;">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6 portfolio-item _@item.CategoryId" style="position: absolute; left: 0px; top: 0px;">
+                    <div class="portfolio-wrap">
+                        <img src="@item.Image" class="img-fluid" alt="">
+                        <div class="portfolio-info">
+                            <h4>@item.Name</h4>
+                            <p>@item.Price</p>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                            <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+    </div>
+</section>
