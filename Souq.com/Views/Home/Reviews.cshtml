@@ -2,6 +2,7 @@
 
 
 
+
 <section id="testimonials" class="testimonials section-bg">
     <div class="container aos-init aos-animate" data-aos="fade-up">
 
@@ -12,19 +13,8 @@
 
         <div class="testimonials-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper" id="swiper-wrapper-92842e7e5b7910dd7" aria-live="off" style="transform: translate3d(-3562.67px, 0px, 0px); transition-duration: 0ms;">
-                <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" role="group" aria-label="3 / 5" style="width: 405.333px; margin-right: 40px;">
-                    <div class="testimonial-item">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                        <h3>Jena Karlis</h3>
-                        <h4>Store Owner</h4>
-                    </div>
-                </div>
-    
+
+
                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="4" role="group" aria-label="5 / 5" style="width: 405.333px; margin-right: 40px;">
                     <div class="testimonial-item">
                         <p>
@@ -37,20 +27,20 @@
                         <h4>Entrepreneur</h4>
                     </div>
                 </div>
-                     @foreach (var item in Model)
+                @foreach (var item in Model)
                 {
-                <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 405.333px; margin-right: 40px;">
-                    <div class="testimonial-item">
-                        <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            @item.Message
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                        </p>
-                        <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                        <h3>@item.Name</h3>
-                        <h4>@item.Subject</h4>
+                    <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 5" style="width: 405.333px; margin-right: 40px;">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                @item.Message
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+
+                            <h3>@item.Name</h3>
+                            <h4>@item.Subject</h4>
+                        </div>
                     </div>
-                </div>
                 }
                 <!-- End testimonial item -->
 
@@ -62,4 +52,6 @@
 
     </div>
 </section>
+
+
 
