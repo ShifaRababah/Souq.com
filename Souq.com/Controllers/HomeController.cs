@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Souq.com.Data;
@@ -83,7 +84,56 @@ namespace Souq.com.Controllers
             return View(product);
         }
 
+        [Authorize]
+        public IActionResult AddProductToCart(int id)
+        {
+            var price = _context.Products.Find(id).Price;
 
+            var item= _context.Carts.FirstOrDefault(x=>x.ProductId==id && x.UserId==User.Identity.Name);
+
+            if (item!=null)
+            {
+                item.Qty += 1;
+            }
+            else
+            {
+                _context.Carts.Add(new Cart
+                {
+                    ProductId=id,
+                    UserId=User.Identity.Name,
+                    Qty=1,
+                    Price=price,    
+                });
+            }
+            _context.SaveChanges();
+
+
+            return Redirect("~/Carts/Index");
+
+        }
+
+        [Authorize]
+        [HttpPost]
+        public IActionResult AddOrder(Order order)
+        {
+            Order o = new Order
+            {
+                Email = order.Email,
+                Address = order.Address,
+                Name = order.Name,
+                Phone = order.Phone,
+                UserId = User.Identity.Name
+            };
+
+            var cartItem = _context.Carts.Where(x => x.UserId == User.Identity.Name).ToList();
+
+            _context.Carts.RemoveRange(cartItem);
+            _context.Orders.Add(o);
+            _context.SaveChanges();
+
+            return Redirect("~/Carts/Index");
+        
+        }
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -72,6 +72,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Projects/Souq.com/Souq.com/Views/Carts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Souq.com/Souq.com/Views/Carts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Souq.com/Souq.com/Views/Carts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Souq.com/Souq.com/Views/Carts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/Souq.com/Souq.com/Views/Carts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/Souq.com/Souq.com/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
