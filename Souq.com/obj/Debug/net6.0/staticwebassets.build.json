@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/yylVU2pC4BQJlgzUvu4iL1zbXsPVAz9LbJCFcBfuT0=",
+  "Hash": "Ps94nFT0yv6ywBBnptryQ0WEi3hb3wttD1MGhkU7Y74=",
   "Source": "Souq.com",
   "BasePath": "_content/Souq.com",
   "Mode": "Default",
@@ -3774,6 +3774,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\Imgs\\87b1d5e0-2f7f-4603-a394-bc805e1470e3_lamp on.png",
+      "SourceId": "Souq.com",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\",
+      "BasePath": "_content/Souq.com",
+      "RelativePath": "Imgs/87b1d5e0-2f7f-4603-a394-bc805e1470e3_lamp on.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imgs\\87b1d5e0-2f7f-4603-a394-bc805e1470e3_lamp on.png"
+    },
+    {
       "Identity": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\Imgs\\bea513c4-198d-433b-b493-d3010b799ee4_lamp on.png",
       "SourceId": "Souq.com",
       "SourceType": "Discovered",
@@ -3789,6 +3806,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Imgs\\bea513c4-198d-433b-b493-d3010b799ee4_lamp on.png"
+    },
+    {
+      "Identity": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\Imgs\\d47e3f0b-b21f-4dd0-b95a-0ad992f1ae25_lamp off.png",
+      "SourceId": "Souq.com",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\",
+      "BasePath": "_content/Souq.com",
+      "RelativePath": "Imgs/d47e3f0b-b21f-4dd0-b95a-0ad992f1ae25_lamp off.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Imgs\\d47e3f0b-b21f-4dd0-b95a-0ad992f1ae25_lamp off.png"
     },
     {
       "Identity": "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.18\\staticwebassets\\V5\\css\\site.css",

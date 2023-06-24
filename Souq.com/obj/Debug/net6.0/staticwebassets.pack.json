@@ -5,8 +5,16 @@
       "PackagePath": "staticwebassets\\Souq.com.bundle.scp.css"
     },
     {
+      "Id": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\Imgs\\87b1d5e0-2f7f-4603-a394-bc805e1470e3_lamp on.png",
+      "PackagePath": "staticwebassets\\Imgs\\87b1d5e0-2f7f-4603-a394-bc805e1470e3_lamp on.png"
+    },
+    {
       "Id": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\Imgs\\bea513c4-198d-433b-b493-d3010b799ee4_lamp on.png",
       "PackagePath": "staticwebassets\\Imgs\\bea513c4-198d-433b-b493-d3010b799ee4_lamp on.png"
+    },
+    {
+      "Id": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\Imgs\\d47e3f0b-b21f-4dd0-b95a-0ad992f1ae25_lamp off.png",
+      "PackagePath": "staticwebassets\\Imgs\\d47e3f0b-b21f-4dd0-b95a-0ad992f1ae25_lamp off.png"
     },
     {
       "Id": "C:\\Projects\\Souq.com\\Souq.com\\wwwroot\\assetsAdmin\\css\\bootstrap.min.css",
