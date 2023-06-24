@@ -287,3 +287,8 @@
     background: var(--dark);
     border-color: var(--primary);
 }
+
+.imgProduct {
+    height: 70px;
+    width: 100px;
+}
